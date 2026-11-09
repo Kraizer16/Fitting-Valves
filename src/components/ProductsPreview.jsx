@@ -6,7 +6,7 @@ import tuberias from "../assets/home/acerca/tuberias.jpg";
 
 function ProductsPreview() {
     return (
-        <section className="relative isolate flex min-h-[380px] items-center justify-center overflow-hidden px-6 py-24 md:min-h-[440px]">
+        <section className="relative isolate flex min-h-95 items-center justify-center overflow-hidden px-6 py-24 md:min-h-110">
 
             {/* IMAGEN DE FONDO */}
             <img
@@ -20,10 +20,10 @@ function ProductsPreview() {
             <div className="absolute inset-0 -z-10 bg-neutral-950/55" />
 
             {/* DEGRADADO SUPERIOR */}
-            <div className="pointer-events-none absolute inset-x-0 top-0 z-0 h-32 bg-gradient-to-b from-neutral-50 via-neutral-50/50 to-transparent" />
+            <div className="pointer-events-none absolute inset-x-0 top-0 z-0 h-32 bg-linear-to-b from-neutral-50 via-neutral-50/50 to-transparent" />
 
             {/* DEGRADADO INFERIOR */}
-            <div className="pointer-events-none absolute inset-x-0 bottom-0 z-0 h-32 bg-gradient-to-t from-neutral-950 via-neutral-950/60 to-transparent" />
+            <div className="pointer-events-none absolute inset-x-0 bottom-0 z-0 h-32 bg-linear-to-t from-neutral-950 via-neutral-950/60 to-transparent" />
 
             {/* CONTENIDO */}
             <div className="relative z-10 mx-auto flex max-w-3xl flex-col items-center text-center">

@@ -52,7 +52,7 @@ function AboutPreview() {
                             src={empresa1}
                             alt="Instalaciones de Fitting Valves"
                             loading="lazy"
-                            className="h-[280px] w-full object-cover transition-transform duration-700 hover:scale-105 md:h-[350px]"
+                            className="h-70 w-full object-cover transition-transform duration-700 hover:scale-105 md:h-87.5"
                         />
                     </div>
 
@@ -62,7 +62,7 @@ function AboutPreview() {
                             src={empresa2}
                             alt="Actividad empresarial de Fitting Valves"
                             loading="lazy"
-                            className="h-[190px] w-full object-cover transition-transform duration-700 hover:scale-105 md:h-[240px]"
+                            className="h-47.5 w-full object-cover transition-transform duration-700 hover:scale-105 md:h-60"
                         />
                     </div>
 

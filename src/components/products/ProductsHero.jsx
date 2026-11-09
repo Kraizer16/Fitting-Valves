@@ -5,7 +5,7 @@ import industrialImage from "../../assets/home/acerca/tuberias.jpg";
 
 function ProductsHero() {
     return (
-        <section className="relative flex min-h-[420px] items-center overflow-hidden bg-[#172536] md:min-h-[500px]">
+        <section className="relative flex min-h-105 items-center overflow-hidden bg-[#172536] md:min-h-125">
             <div
                 className="absolute inset-0 bg-cover bg-center"
                 style={{ backgroundImage: `url(${industrialImage})` }}
@@ -16,7 +16,7 @@ function ProductsHero() {
             <div className="relative mx-auto w-full max-w-7xl px-6 py-20">
                 <div className="max-w-3xl">
                     <p className="mb-5 flex items-center gap-3 text-sm font-bold uppercase tracking-[0.25em] text-[#F5C400]">
-                        <span className="h-[2px] w-10 bg-[#F5C400]" />
+                        <span className="h-0.5 w-10 bg-[#F5C400]" />
                         Soluciones para la industria
                     </p>
 

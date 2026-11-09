@@ -93,7 +93,7 @@ function AboutSection() {
                         <img
                             src={empresa1}
                             alt="Actividad industrial de Fitting Valves"
-                            className="relative z-10 h-[350px] w-full rounded-2xl object-cover shadow-xl md:h-[430px]"
+                            className="relative z-10 h-87.5 w-full rounded-2xl object-cover shadow-xl md:h-107.5"
                         />
 
                         <div className="absolute -bottom-5 left-5 z-20 rounded-xl bg-[#172536] px-6 py-4 text-white shadow-lg">
@@ -247,7 +247,7 @@ function AboutSection() {
                                 src={reconocimientos}
                                 alt="Reconocimiento y certificación de Fitting Valves"
                                 loading="lazy"
-                                className="max-h-[350px] w-full rounded-xl object-contain"
+                                className="max-h-87.5 w-full rounded-xl object-contain"
                             />
                         </div>
 

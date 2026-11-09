@@ -6,7 +6,7 @@ function ProductDetail({ product, onClose }) {
 
     return (
         <div
-            className="fixed inset-0 z-[100] flex items-center justify-center bg-black/70 p-4 backdrop-blur-sm"
+            className="fixed inset-0 z-100 flex items-center justify-center bg-black/70 p-4 backdrop-blur-sm"
             onClick={onClose}
         >
             <div
@@ -29,12 +29,12 @@ function ProductDetail({ product, onClose }) {
                 <div className="grid md:grid-cols-2">
 
                     {/* Imagen */}
-                    <div className="flex min-h-[300px] items-center justify-center bg-gray-50 p-8 md:min-h-[500px]">
+                    <div className="flex min-h-75 items-center justify-center bg-gray-50 p-8 md:min-h-125">
                         {product.image ? (
                             <img
                                 src={product.image}
                                 alt={product.name}
-                                className="max-h-[420px] w-full object-contain"
+                                className="max-h-105 w-full object-contain"
                             />
                         ) : (
                             <p className="text-sm text-gray-400">

@@ -21,7 +21,7 @@ function ImageModal({ client, onClose }) {
 
     return (
         <div
-            className="fixed inset-0 z-[100] flex items-center justify-center bg-black/75 p-5 backdrop-blur-sm"
+            className="fixed inset-0 z-100 flex items-center justify-center bg-black/75 p-5 backdrop-blur-sm"
             onClick={onClose}
         >
             <div
@@ -39,7 +39,7 @@ function ImageModal({ client, onClose }) {
                     <X size={22} />
                 </button>
 
-                <div className="flex min-h-[250px] items-center justify-center">
+                <div className="flex min-h-62.5 items-center justify-center">
                     <img
                         src={client.image}
                         alt={`Logo de ${client.name}`}
