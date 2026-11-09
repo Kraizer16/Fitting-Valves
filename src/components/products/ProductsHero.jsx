@@ -31,13 +31,13 @@ function ProductsHero() {
                     </p>
 
                     <div className="mt-9 flex flex-wrap items-center gap-4">
-                        <a
-                            href="#catalogo"
+                        <Link
+                            to="/productos#catalogo"
                             className="inline-flex items-center gap-3 rounded-md bg-[#F5C400] px-7 py-3.5 font-bold text-[#172536] transition hover:bg-yellow-400"
                         >
                             Explorar catálogo
                             <ArrowDown size={19} />
-                        </a>
+                        </Link>
 
                         <Link
                             to="/contacto"
