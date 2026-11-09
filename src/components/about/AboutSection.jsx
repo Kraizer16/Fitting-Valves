@@ -7,6 +7,9 @@ import {
     TrendingUp,
 } from "lucide-react";
 
+import empresa1 from "../../assets/home/acerca/empresa-1.jpg";
+import reconocimientos from "../../assets/home/acerca/reconocimientos.png";
+
 function AboutSection() {
     const objectives = [
         {
@@ -88,7 +91,7 @@ function AboutSection() {
                         <div className="absolute -right-3 -top-3 h-full w-full rounded-2xl border-2 border-yellow-400 md:-right-5 md:-top-5" />
 
                         <img
-                            src="/src/assets/home/acerca/empresa-1.jpg"
+                            src={empresa1}
                             alt="Actividad industrial de Fitting Valves"
                             className="relative z-10 h-[350px] w-full rounded-2xl object-cover shadow-xl md:h-[430px]"
                         />
@@ -241,7 +244,7 @@ function AboutSection() {
 
                         <div className="flex justify-center">
                             <img
-                                src="/src/assets/home/acerca/reconocimientos.png"
+                                src={reconocimientos}
                                 alt="Reconocimiento y certificación de Fitting Valves"
                                 loading="lazy"
                                 className="max-h-[350px] w-full rounded-xl object-contain"
